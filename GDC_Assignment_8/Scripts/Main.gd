@@ -28,4 +28,3 @@ func delete_image() -> void:
 
 
 
-
