@@ -24,7 +24,7 @@ func delete_image() -> void:
 	var children: Array = get_children() # Children
 	for child in children:
 		if child.touching_mouse: # Touching mouse is a variable on each child
-			child.queue_free()
+			child.queue_free() # Deletes the node
 
 
 
